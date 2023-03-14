@@ -1,0 +1,82 @@
+﻿body {
+ 
+    margin:0px;
+    
+}
+
+    .header{
+    
+        background-color:#f9f2f2;
+    
+        }
+        
+            nav {
+        
+                display:inline-block;
+            
+                }
+               
+                h1{
+                
+                    display: inline-block;
+ 
+                    width:70%;
+                
+                    }   
+                    
+                link{
+                
+                    display:inline-block;
+                    
+                    padding-left:15px;
+                                 
+                }
+                    
+                dropdown{
+                    
+                    width:10%;
+                    
+                    display: inline-block;
+                    
+                    text-align:right;
+                    
+                    float: right;
+                    
+                    padding:0 20px;
+                    
+                }
+                
+                dropdown open{
+                
+                    display: inline-block;
+                    
+                    float: right
+                
+                        }
+                    
+                order{
+                
+                    float: right;
+                    
+                    display: inline-block;
+                    
+                    }
+                    
+                dropdown-menu{
+                
+                    display:inline-block;
+                    
+                    }
+                     
+    footer{
+
+        
+        background-color:#605b5b;
+        
+        color:#fff;
+        
+        padding:10px 20px;
+    
+        }
+
+    

@@ -1,0 +1,152 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="mysite.master.cs" Inherits="WebAyeni.mysite" %>
+
+<!DOCTYPE html>
+
+<html>
+
+<head runat="server">
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    
+    <link href="contents/css/main.css" rel="stylesheet" type="text/css" />
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    <title>SMMM Mehmet Ali ACİOĞLU</title>
+    
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrJ3ZftIgZ8kWX6bE3QZG5IH6ZnGJHPBOo271tcVaMSw&s" type="image/x-icon"/>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    
+    </asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+
+        <form id="form1" runat="server">
+
+    <section class="section">
+
+        <header class="header">
+
+            <div style="padding:10px; margin:0px; width:100%;">
+
+                <nav class="nav">
+
+                    <a href="https://localhost:44352/anaicerik.aspx">
+
+                    <img style="height:100px;width:10%;"src="https://seeklogo.com/images/M/mali-musavirlik-logo-EC6956FE82-seeklogo.com.png" alt="Mali Müşavir Logo PNG Vector (EPS) Free Download"/>
+
+                    </a>
+
+                    <h1>MACİOĞLU MALİ MÜŞAVİRLİK  VE DANIŞMANLIK</h1>
+
+                    <a class="sign" style=" padding:5px;float:right; color:black;" href="https://localhost:44352/login.aspx">Giriş Yap</a>
+
+                    <div class="dropdown dropleft float-right" style="width:10%; display:inline-block; padding:20px 20px; float:right;">
+
+                        <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+
+                            <span class="material-symbols-outlined">menu</span></button>
+
+                            <ul class="dropdown-menu">
+
+                                <li><a class="link" href="https://localhost:44352/anaicerik.aspx">Ana Sayfa</a></li>
+
+                                <li ><a class="link" href="https://localhost:44352/hakkimizda.aspx">Hakkımızda</a></li>
+
+                                <li><a class="link" href="https://localhost:44352/ozgecmis.aspx">Özgeçmiş</a></li>
+
+                                <li><a class="link" href="https://localhost:44352/iletisim.aspx">İletişim</a></li>
+
+                            </ul>
+                    </div>
+
+                </nav>
+
+            </div>
+
+             <div style="padding:10px 40px; background-color: #bbd8d5;"class="content">
+
+            <h3 style=" margin:0px;">MEHMET ALİ ACİOĞLU</h3> <h4 style="color:white;margin:0px;">SERBEST MUHASEBECİ</h4><h4 style="color:white;margin:0px;"> MALİ MÜŞAVİR</h4>
+
+        </div>
+
+        </header>
+
+        <article style="padding:10px 0px; padding-left:10px; display:inline-block; float:right; border-left:3px solid gainsboro; height:31%; width:24%;" class="ek">
+
+            <p style="text-decoration:underline;"><b>Not:</b> Kullanıcı listesini görebilmek için giriş yapmanız gerekiyor.</p> 
+
+            <p><a style="padding:1px 5px; border-radius:8px; color:antiquewhite; background-color:brown;" href="https://localhost:44352/login.aspx">Kullanıcı Listesi</a></p>
+
+            <p>
+
+                <ul>
+
+                    <li><a href="https://giris.turkiye.gov.tr/">E-Devlet</a></li>
+
+                    <li><a href="https://www.gib.gov.tr/">Gelir İdaresi Başkanlığı</a></li>
+
+                    <li><a href="https://www.sgk.gov.tr/">Sosyal Güvenlik Kurumu</a></li>
+
+                    <li><a href="https://www.resmigazete.gov.tr/">Resmi Gazete</a></li>
+
+                    <li><a href="https://www.ticaretsicil.gov.tr/">Ticaret Sicil Gazatesi</a></li>
+
+                </ul>
+
+            </p>
+
+            <br /> <br />
+
+            <p>Uzman, deneyimli, meslek ahlakı, şeffaflık, gizlilik ve <br /> disiplin ilkelerimizden asla ödün vermeden dinamik  <br />kadromuzla doğru,güvenilir ve güncel bilgiye hızlı <br />şekilde ulaşarak firmalara muhasebe ve vergi <br />konularında çözüm odaklı hizmet sunmaktayız.</p>
+
+        </article>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">             
+
+       </asp:ContentPlaceHolder>
+
+        <footer class="footer">
+
+            <p style="text-decoration:underline;">Ofis <br /></p> 
+
+            <p>General Şükrü Kanatlı Mahallesi Yavuz Sultan Selim Caddesi Kimyon Apartmanı Kat:1 Antakya - Hatay</p>
+
+            <p style="text-decoration:underline;">Numara</p>
+
+            <tel>+90 530 565 6176</tel><br />
+
+            <tel>326 221 31 39</tel>
+
+            <br /> <br />
+
+            <p style="text-decoration:underline;">Mail</p> <p> macioglu@hotmail.com  <br />  mehmetacioglusmmm@hotmail.com  <br />  mehmetacioglusmmm@gmail.com</p>
+
+            <br /> <br />
+
+            <p style="text-decoration:underline;">Çalışma Saatleri  <br /></p> <p> Hafta İçi: 09.00 - 18.00 <br /> Cumartesi: 09.00 - 16.00 </p>
+
+            <br /> <br />
+
+            &copy;Mehmet Ali ACİOĞLU
+
+        </footer>
+
+   </section>
+
+    </form>
+
+</body>
+
+</html>
